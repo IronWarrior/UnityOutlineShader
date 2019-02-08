@@ -597,10 +597,6 @@ MonoBehaviour:
   m_BeforeStackBundles:
   - assemblyQualifiedName: PostProcessOutline, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-  - assemblyQualifiedName: PostProcessOutlineSkeleton, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  - assemblyQualifiedName: PostProcessOutlineTutorial, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   m_AfterStackBundles: []
 --- !u!114 &1069774574
 MonoBehaviour:
