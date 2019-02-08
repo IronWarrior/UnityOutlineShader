@@ -1,15 +1,14 @@
 ﻿Shader "Hidden/Roystan/Outline Post Process"
 {
-	// Custom post processing effects are written in HLSL blocks,
-	// with lots of macros to aid with platform differences.
-	// https://github.com/Unity-Technologies/PostProcessing/wiki/Writing-Custom-Effects#shader
-
     SubShader
     {
         Cull Off ZWrite Off ZTest Always
 
         Pass
         {
+			// Custom post processing effects are written in HLSL blocks,
+			// with lots of macros to aid with platform differences.
+			// https://github.com/Unity-Technologies/PostProcessing/wiki/Writing-Custom-Effects#shader
             HLSLPROGRAM
             #pragma vertex Vert
             #pragma fragment Frag
