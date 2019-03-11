@@ -16,7 +16,7 @@ Shader "Hidden/Roystan/Outline Post Process"
 			#include "Packages/com.unity.postprocessing/PostProcessing/Shaders/StdLib.hlsl"
 
 			TEXTURE2D_SAMPLER2D(_MainTex, sampler_MainTex);
-			// GBufferTexture2 contains the world space normals transformed
+			// _CameraNormalsTexture contains the view space normals transformed
 			// to be in the 0...1 range.
 			TEXTURE2D_SAMPLER2D(_CameraNormalsTexture, sampler_CameraNormalsTexture);
 			TEXTURE2D_SAMPLER2D(_CameraDepthTexture, sampler_CameraDepthTexture);
