@@ -1,4 +1,4 @@
-﻿Shader "Hidden/Roystan/Outline Post Process"
+Shader "Hidden/Roystan/Outline Post Process"
 {
     SubShader
     {
@@ -18,7 +18,7 @@
 			TEXTURE2D_SAMPLER2D(_MainTex, sampler_MainTex);
 			// GBufferTexture2 contains the world space normals transformed
 			// to be in the 0...1 range.
-			TEXTURE2D_SAMPLER2D(_CameraGBufferTexture2, sampler_CameraGBufferTexture2);
+			TEXTURE2D_SAMPLER2D(_CameraNormalsTexture, sampler_CameraNormalsTexture);
 			TEXTURE2D_SAMPLER2D(_CameraDepthTexture, sampler_CameraDepthTexture);
         
 			// Data pertaining to _MainTex's dimensions.
